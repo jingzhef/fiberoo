@@ -24,9 +24,10 @@ function numEvenNums(array){
     let even = 0;
     let i = 0;
     while(i < array.length){
-        if(array[i] % 2 === 0) {
+        if((array[i] % 2) === 0) {
           even++;
         }
+        i++;
     }
     return even;
 }
